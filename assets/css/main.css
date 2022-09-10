@@ -51,6 +51,7 @@ table {
 	border-spacing: 0;
 }
 
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -70,6 +71,14 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+div.fitted {
+	text-align: center;
+}
+
+.PDfDiv{
+    height: 75vh;
 }
 
 /* Basic */
@@ -2633,9 +2642,12 @@ input, select, textarea {
 			}
 
 		.image.main {
-			/* display: block; */
+			display: block;
 			margin: 4rem 0;
-			width: 40%;
+			width: 50%;
+			padding-right: 3em;
+			
+			
 			/* andreas main photo */
 		}
 
@@ -3794,7 +3806,8 @@ input, select, textarea {
 			}
 
 			#main > .post.featured {
-				text-align: center;
+				display: flex;
+
 			}
 
 			@media screen and (max-width: 1280px) {

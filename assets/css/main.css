@@ -77,6 +77,23 @@ div.fitted {
 	text-align: center;
 }
 
+#left {
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+
+#right {
+	margin-left: 50%;
+	height: 100px;
+}
+
+
+/* p.aligning {
+	text-align: right;
+} */
+
+
 .PDfDiv{
     height: 100vh;
 }
@@ -3775,6 +3792,7 @@ div.fitted {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		overflow-y: auto;
 	}
 
 		#main > * {

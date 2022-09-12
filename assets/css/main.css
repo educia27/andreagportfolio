@@ -2661,10 +2661,9 @@ div.fitted {
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			width: 50%;
+			width: 700%;
+			padding-top: 8em;
 			padding-right: 3em;
-			
-			
 			/* andreas main photo */
 		}
 
